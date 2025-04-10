@@ -1,6 +1,6 @@
 # GitHub Action to build and deploy Astro blog to GitHub Pages
 
-name: Deploy Astro site to Pages
+name: GitHub Pages
 
 on:
   # Triggers the workflow on push to the main branch
