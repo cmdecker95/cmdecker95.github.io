@@ -33,7 +33,7 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v1
         with:
-          bun-version: latest
+          bun-version: "1.0.20" # Using a specific version for stability
 
       - name: Install dependencies
         run: bun install
