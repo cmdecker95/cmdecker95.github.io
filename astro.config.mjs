@@ -5,7 +5,7 @@ import { defineConfig } from "astro/config";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://cmdecker95.github.io",
-  base: "/blog",
+  site: "https://cmdecker95.github.io/blog",
+  base: "/",
   integrations: [mdx(), sitemap()],
 });
